@@ -6,7 +6,10 @@ A vulnerability about apollo-adminservice Unauthorized sensetive info
 Access http://host:8090/releases?releaseIds=1 via GET method and carry the releaseIds data。
 All configuration information can be obtained by modifying the releaseIds parameter.
 
-This configuration exists for all types of administrator configuration passwords, such as database, ftp, ssh, naocs
+This configuration exists for all types of administrator configuration passwords, such as database, ftp, ssh, naocs.
+
+![image](https://github.com/user-attachments/assets/672a17f1-0d85-4bef-9081-4f09bc3264f6)
+
 
 ![image](https://github.com/user-attachments/assets/719d3861-a3ef-4dd4-a41b-e63235979001)
 
